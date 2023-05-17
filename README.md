@@ -4,7 +4,7 @@ Off_the_charts is a data visualization project dedicated to sports statistics.
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). It was initially designed to learn and practice frontend development and explore data visualization concepts.  
   
 The polar chart was developed so that the area is proportional to a score according to a given scoring matrix. In this example, the Sorare matrix. This allows to compare players across various positions and to track performance over time. script for the path in the radarPath.js file. angle breakdown in /pictures/BigRadar.png. 
-Find more information about the genesis of the project here : https://pitti.fr/2023/05/not-all-sports-statistics-are-equal
+Find more information about the genesis of the project here : https://pitti.fr/2023/05/not-all-sports-statistics-are-equal   
 The area chart leverages the Victory library (Formidable). Icons from Font Awesome, Google Fonts and SorareData.com
 
 # Next steps / roadmap :
@@ -12,7 +12,7 @@ The area chart leverages the Victory library (Formidable). Icons from Font Aweso
 - add DA icons in area chart tooltip
 - expand tooltip to show all gamedata
 
-# IP & Copyrights
+# IP & Copyright
 Stats and player information (including pictures) are fetched from the SorareAPI [https://github.com/sorare/api] via an intermediary API. see details below. Nothing is stored in a proprietary database.  
 If you intend to use the code for commercial purpose, please make sure you get the necessary approvals from the third parties mentioned above.  
 If you are not an experienced developer, feel free to just use the app and break it. It is part of the learning process...
