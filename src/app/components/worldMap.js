@@ -27,7 +27,7 @@ THE SOFTWARE.
 
 ***from PITTI***
 
-The SVG object was processed to extract releant paths, and store them, 
+The SVG object was processed to extract relevant paths, and store them, 
 for each country, in an array. here is the function to process the SVG object 
 and store the arrays in an object (dict):
 

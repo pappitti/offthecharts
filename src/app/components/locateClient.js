@@ -173,7 +173,7 @@ function MapContent (props){
                     <path key={index+"-"+subindex} id={item} d={subitem} fill={(countries[item].cardsNumber>0)?`rgba(255,104,79,${countries[item].cardsNumber/maxCards*0.8+0.2})`:"#ececec"} onMouseOver={(e)=>showTooltip(e)} onMouseOut={(e)=>hideTooltip(e)} onClick={(e)=>props.selectCountry(e)}></path> /*sets state when mouse passes over a country, and clears stats when it leaves. If there is zero card, country is grey, otherwise it is orange and opacity defines the shade as a percentage of max cards (baseline at 0.2)*/
                 ))}
             </svg>
-            <div className="map-title" style={{margin:"20px auto "+(disclaimer||hoverCountry?0:12.5)+"px"}}> {/*title becomes tooltip on over (same contruct, only content changes). it only changes position to be under the map when map is reduced */}
+            <div className="map-title" style={{margin:"20px auto "+(disclaimer||hoverCountry?0:12.5)+"px"}}> {/*title becomes tooltip on over (same contruct, only content changes)*/}
                 <div className="map-title-topblock">
                     <div className="tooltip-col">
                         <div className="tooltip-content-label">{hoverCountry?"COUNTRY":"USER"}</div>

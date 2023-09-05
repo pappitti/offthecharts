@@ -27,7 +27,7 @@ export default function Home() {
                   <div className='navigation-tile'>
                     <div className='main-subtitle'>Find out if you are truly playing <br/>the global game</div>
                     <div className='navigation-block'>
-                      <div className='know-more'><a href="https://www.pitti.io/projects/off-the-charts" target="_blank" rel="author">About</a> the map</div>
+                      <div className='know-more'><a href="https://github.com/pappitti/interactivemap/blob/main/README.md" target="_blank" rel="author">About</a> the map</div>
                       <div className='start-button'><a href="/locate">LOCATE</a></div>
                     </div>
                   </div>
