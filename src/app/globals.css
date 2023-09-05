@@ -413,7 +413,13 @@ section{
 @media(max-width:980px){
   .player-labels{
       justify-content: center;
-      width:unset
+      width:unset;
+      flex:0 1 auto;
+  }
+}
+@media(max-width:600px){
+  .parameters-content-col.locate{
+    min-width: 370px;
   }
 
 }
