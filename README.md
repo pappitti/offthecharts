@@ -14,7 +14,7 @@ The map was developed by PITTI, lifting a map created by Simplemaps.com (MIT Lic
   
 # Others  
 ## Next steps / roadmap :
-- search by name instead of slug input (requires light backend, MongoDB would do)
+- Search by name instead of slug input (requires light backend, MongoDB would do)
 - Build area chart, add DA icons in area chart tooltip, expand tooltip to show all gamedata  
 
 ## Licence / IP / Copyrights
